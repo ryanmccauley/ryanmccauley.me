@@ -7,7 +7,7 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto gap-8">
     <div class="flex flex-col gap-4 items-center">
-      <img src="@/assets/img/headshot.png" class="w-1/2 h-1/2 rounded-full shadow" />
+      <img src="/img/headshot.png" class="w-1/2 h-1/2 rounded-full shadow" />
       <div class="flex flex-col items-center">
         <h1 class="text-3xl font-bold text-white">Ryan McCauley</h1>
         <p class="font-mono text-white">Software Engineer</p>
