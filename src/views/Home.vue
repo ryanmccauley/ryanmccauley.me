@@ -2,10 +2,12 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faCloudDownload } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto gap-8">
+
     <div class="flex flex-col gap-4 items-center">
       <img src="/img/headshot.png" class="w-1/2 h-1/2 rounded-full shadow" />
       <div class="flex flex-col items-center">
@@ -24,6 +26,9 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
           <svg-icon :fa-icon="faDiscord" :size="32" />
         </a>
       </div>
+      <a type="button" href="https://docs.google.com/document/d/1tsjwIbiVwEYveycHDOyvHhkgx1NetF5zYodmjkqkw2Y/edit?usp=sharing" class="text-white font-mono underline underline-offset-4">
+        Download Resume
+      </a>
     </div>
   </div>
 </template>
