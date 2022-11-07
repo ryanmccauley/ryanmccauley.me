@@ -26,7 +26,7 @@ import { faCloudDownload } from "@fortawesome/free-solid-svg-icons";
           <svg-icon :fa-icon="faDiscord" :size="32" />
         </a>
       </div>
-      <a type="button" href="https://docs.google.com/document/d/1tsjwIbiVwEYveycHDOyvHhkgx1NetF5zYodmjkqkw2Y/edit?usp=sharing" class="text-white font-mono underline underline-offset-4">
+      <a type="button" href="https://docs.google.com/document/d/1tsjwIbiVwEYveycHDOyvHhkgx1NetF5zYodmjkqkw2Y/edit?usp=sharing" target="_blank" class="text-white font-mono underline underline-offset-4">
         Download Resume
       </a>
     </div>
