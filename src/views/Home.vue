@@ -2,7 +2,6 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { faCloudDownload } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <template>
