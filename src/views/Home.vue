@@ -1,33 +1,32 @@
 <script setup lang="ts">
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto gap-8">
-
-    <div class="flex flex-col gap-4 items-center">
-      <img src="/img/headshot.png" class="w-1/2 h-1/2 rounded-full shadow" />
-      <div class="flex flex-col items-center">
-        <h1 class="text-3xl font-bold text-white">Ryan McCauley</h1>
-        <p class="font-mono text-white">Software Engineer</p>
-        <a href="mailto:ryanmcly@gmail.com" class="text-white font-mono text-sm">ryanmcly@gmail.com</a>
+  <div class="min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-around px-4">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      <img src="/img/headshot.png" class="w-1/3 md:w-1/5 shadow" />
+      <div class="flex flex-col items-center md:items-start gap-2">
+        <h1 class="font-bold text-5xl">Ryan McCauley</h1>
+        <div class="text-gray-800 text-center md:text-start">
+          <p>I am a highly passionate individual pursuing a career in software. At the moment, I work at <a href="https://www.fandisentinel.com">F&amp;I Sentinel</a>.</p>
+        </div>
+        <div class="flex gap-2">
+          <a href="mailto:ryanmcly@gmail.com">Email</a>
+          •
+          <a href="https://www.github.com/ryanmccauley/">GitHub</a>
+          •
+          <a href="https://www.linkedin.com/in/ryanmccauley24/">LinkedIn</a>
+        </div>
       </div>
-      <div class="flex items-center justify-center gap-2">
-        <a href="https://www.linkedin.com/in/ryanmccauley24/" target="_blank" class="fill-current text-white">
-          <svg-icon :fa-icon="faLinkedin" :size="32" />
-        </a>
-        <a href="https://github.com/ryanmccauley" target="_blank" class="fill-current text-white">
-          <svg-icon :fa-icon="faGithub" :size="32" />
-        </a>
-        <a href="https://discord.com/users/556928967077003275" target="_blank" class="fill-current text-white">
-          <svg-icon :fa-icon="faDiscord" :size="32" />
-        </a>
-      </div>
-      <a type="button" href="https://docs.google.com/document/d/1tsjwIbiVwEYveycHDOyvHhkgx1NetF5zYodmjkqkw2Y/edit?usp=sharing" target="_blank" class="text-white font-mono underline underline-offset-4">
-        Download Resume
-      </a>
     </div>
+    <div />
   </div>
 </template>
+
+<style scoped>
+a {
+  @apply font-medium text-sky-800 decoration-transparent underline underline-offset-4 decoration-2 transition-all duration-100 ease-in-out;
+  @apply hover:text-sky-600 hover:decoration-sky-600;
+}
+</style>
