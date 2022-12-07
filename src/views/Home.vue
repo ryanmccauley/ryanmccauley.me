@@ -9,7 +9,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
       <div class="flex flex-col items-center md:items-start gap-2">
         <h1 class="font-bold text-5xl">Ryan McCauley</h1>
         <div class="text-gray-800 text-center md:text-start">
-          <p>I am a highly passionate individual pursuing a career in software. At the moment, I work at <a href="https://www.fandisentinel.com">F&amp;I Sentinel</a>.</p>
+          <p>I am a highly passionate individual pursuing a career in software. At the moment, I work at <a href="https://fandisentinel.com">F&amp;I Sentinel</a>.</p>
         </div>
         <div class="flex gap-2">
           <a href="mailto:ryanmcly@gmail.com">Email</a>
